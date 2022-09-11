@@ -1,0 +1,5 @@
+**/.DS_STORE
+**/.dSYM
+**/.idea
+**/.clang-format
+**/cmake-build-debug

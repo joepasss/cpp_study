@@ -1,5 +1,7 @@
 #include <iostream>
 
+#include "./fractional.cpp"
+
 /*    Number system
  *  int number1 = 15;         Decimal
  *  int number2 = 017;        Octal
@@ -88,6 +90,9 @@ void getSizeOfmodifiedInt() {
 
 int main() {
   std::cout << "C++ Variables!" << std::endl;
-  getSizeOfmodifiedInt();
+  divider();
+
+  fractionalNumber();
+
   return 0;
 }

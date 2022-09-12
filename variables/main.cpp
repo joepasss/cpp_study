@@ -3,6 +3,7 @@
 #include "./boolean.cpp"
 #include "./fractional.cpp"
 #include "./characters.cpp"
+#include "./auto.cpp"
 
 /*    Number system
  *  int number1 = 15;         Decimal
@@ -98,7 +99,7 @@ int main() {
   std::cout << "C++ Variables!" << std::endl;
   divider();
 
-  characters();
+  autos();
 
   return 0;
 }

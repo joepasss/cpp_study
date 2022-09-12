@@ -1,5 +1,6 @@
 #include <iostream>
 
+#include "./boolean.cpp"
 #include "./fractional.cpp"
 
 /*    Number system
@@ -88,11 +89,15 @@ void getSizeOfmodifiedInt() {
   getSizeOfInt(0, 0, 0, value4, "long long int");
 }
 
+void divider() {
+  std::cout << "----------------------------------------------------------------------" << std::endl;
+}
+
 int main() {
   std::cout << "C++ Variables!" << std::endl;
   divider();
 
-  fractionalNumber();
+  booleans();
 
   return 0;
 }

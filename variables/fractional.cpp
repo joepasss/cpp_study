@@ -11,10 +11,6 @@
 
 using namespace std;
 
-void divider() {
-  cout << "----------------------------------------------------------------------" << endl;
-}
-
 void fractionalNumber () {
   float number1 {1.12345678901234567890f};
   double number2 {1.12345678901234567890};
@@ -25,12 +21,10 @@ void fractionalNumber () {
   cout << "float size" << sizeof(float) << endl;
   cout << "double size" << sizeof(double) << endl;
   cout << "long double size" << sizeof(long double) << endl;
-  divider();
 
   // print out the precision
   cout << setprecision(20);
   cout << "number 1 is : " << number1 << endl;  // 7
   cout << "number 2 is : " << number2 << endl;  // 15
   cout << "number 3 is : " << number3 << endl;  // 15+
-  divider();
 }

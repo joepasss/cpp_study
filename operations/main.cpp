@@ -1,8 +1,9 @@
 #include <iostream>
 #include "basic_op.cpp"
+#include "precedence.cpp"
 
 int main() {
-  basicOp();
+  precedenceAssociativity();
 
   return 0;
 }

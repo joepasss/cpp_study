@@ -5,11 +5,12 @@
 #include "precedence.cpp"
 #include "increment_decrement.cpp"
 #include "compound.cpp"
+#include "relational_op.cpp"
 
 using namespace std;
 
 int main() {
-  compound();
+  relation_op();
 
   return 0;
 }

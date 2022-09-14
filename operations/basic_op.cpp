@@ -1,12 +1,7 @@
 // Basic OP
 
 // add, subtract, divide, modulus, multiply
-
 using namespace std;
-
-void dividier() {
-  cout << "------------------------------------" << endl;
-}
 
 void basicOp() {
   int num1, num2, num3 = 0;
@@ -33,26 +28,26 @@ void basicOp() {
   int mul = num1 * num2;
   int other_mul = num1 * num2 * num3;
 
-  dividier();
+  divider();
   cout << "ADD" << endl;
   cout << sum << endl;
   cout << other_sum << endl;
 
-  dividier();
+  divider();
   cout << "SUB" << endl;
   cout << sub << endl;
   cout << other_sub << endl;
 
-  dividier();
+  divider();
   cout << "DIV" << endl;
   cout << div << endl;
   cout << other_div << endl;
 
-  dividier();
+  divider();
   cout << "MOD" << endl;
   cout << mod << endl;
 
-  dividier();
+  divider();
   cout << "MUL" << endl;
   cout << mul << endl;
   cout << other_mul << endl;

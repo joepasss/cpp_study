@@ -1,5 +1,3 @@
-#include "divider.cpp";
-
 void incDec() {
   int value = 5;
 

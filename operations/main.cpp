@@ -6,11 +6,12 @@
 #include "increment_decrement.cpp"
 #include "compound.cpp"
 #include "relational_op.cpp"
+#include "logical_op.cpp"
 
 using namespace std;
 
 int main() {
-  relation_op();
+  logicalOp();
 
   return 0;
 }

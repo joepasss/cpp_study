@@ -1,9 +1,12 @@
 #include <iostream>
 #include "basic_op.cpp"
 #include "precedence.cpp"
+#include "increment_decrement.cpp"
+
+using namespace std;
 
 int main() {
-  precedenceAssociativity();
+  incDec();
 
   return 0;
 }

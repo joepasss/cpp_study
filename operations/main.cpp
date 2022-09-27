@@ -14,11 +14,18 @@
 #include "numeric_limit.cpp"
 #include "math_functions.cpp"
 #include "weird_integral_types.cpp"
+#include "celcius_to_fahernheit.cpp"
 
 using namespace std;
 
 int main() {
-  weirdInt();
+  double cel {0};
+  cout << "Please enter a degree value in Celsius : ";
+  cin >> cel;
+
+  cout << cel << " Celsius is " << celToFah(cel) << " Fahrenheit" << endl;
 
   return 0;
 }
+
+// 91.76

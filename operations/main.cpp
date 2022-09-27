@@ -13,11 +13,12 @@
 #include "output_formattig.cpp"
 #include "numeric_limit.cpp"
 #include "math_functions.cpp"
+#include "weird_integral_types.cpp"
 
 using namespace std;
 
 int main() {
-  mathFunctions();
+  weirdInt();
 
   return 0;
 }

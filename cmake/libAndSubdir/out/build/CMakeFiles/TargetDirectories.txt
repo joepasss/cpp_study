@@ -1,0 +1,6 @@
+/Users/mac/programming/cpp/cmake/libAndSubdir/out/build/CMakeFiles/LIBANDSUBDIR.dir
+/Users/mac/programming/cpp/cmake/libAndSubdir/out/build/CMakeFiles/edit_cache.dir
+/Users/mac/programming/cpp/cmake/libAndSubdir/out/build/CMakeFiles/rebuild_cache.dir
+/Users/mac/programming/cpp/cmake/libAndSubdir/out/build/Adder/CMakeFiles/adder.dir
+/Users/mac/programming/cpp/cmake/libAndSubdir/out/build/Adder/CMakeFiles/edit_cache.dir
+/Users/mac/programming/cpp/cmake/libAndSubdir/out/build/Adder/CMakeFiles/rebuild_cache.dir

@@ -28,4 +28,7 @@ $./run.sh
    int c;        // literal -> stored directly in binary code
 
    c = a + b;
+
+   long some_long_variable {88};  // variable
+   long some_long_literal {88L};  // literal
    ```

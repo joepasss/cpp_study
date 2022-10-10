@@ -1,1 +1,1 @@
-cd out/build ; make ; ./LITERALSNCONSTANTS
+cd ./out/build ; make ; ./LITERALNCONSTANTS

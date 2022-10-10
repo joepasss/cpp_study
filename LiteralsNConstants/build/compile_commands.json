@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/mac/programming/cpp/LiteralsNConstants/build",
+  "command": "/usr/bin/clang++   -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20 -o CMakeFiles/LITERALNCONSTANTS.dir/main.cpp.o -c /Users/mac/programming/cpp/LiteralsNConstants/main.cpp",
+  "file": "/Users/mac/programming/cpp/LiteralsNConstants/main.cpp"
+}
+]

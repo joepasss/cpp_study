@@ -3,3 +3,4 @@
 **/.idea
 **/.clang-format
 **/cmake-build-debug
+**/out/build

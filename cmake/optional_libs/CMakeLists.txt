@@ -15,6 +15,8 @@ if(USE_ADDER)
   list(APPEND EXTRA_LINKS "adder")
 endif()
 
+configure_file(OPTIONAL_LIBSConfig.in.h OPTIONAL_LIBSConfig.h)
+
 target_include_directories(${PROJECT_NAME} PUBLIC ${EXTRA_INCLUDES_DIRS} ${PROJECT_BINARY_DIR})
 
 target_link_directories(${PROJECT_NAME} PUBLIC ${EXTRA_LIB_DIRS})

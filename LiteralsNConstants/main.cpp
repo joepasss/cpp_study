@@ -2,9 +2,10 @@
 
 void literals();
 void divider();
+void constantExp();
 
 int main() {
-  std::cout << "Hello from LITERALSNCONSTANTS" << std::endl;
+  constantExp();
 
   return 0;
 }
@@ -38,4 +39,29 @@ void literals() {
   // int number_literal {15};
   // float fractional_literal {1.5f};
   // std::string string_literal {"some strings!"};
+}
+
+void constantExp() {
+  // constexpr = constant that may be evaluated at compile time or runtime
+
+  constexpr int SOME_LIB_MAJOR_VERSION{123};
+
+  constexpr int eye_count{2};
+
+  constexpr double PI{3.14};
+
+  std::cout << "eye count: " << eye_count << std::endl;
+  std::cout << "PI: " << PI << std::endl;
+
+  int leg_count{2}; // leg_count is not known at compile time
+
+  // constexpr int arm_count {leg_count}
+
+  constexpr int room_count{10};
+  constexpr int door_count{room_count};
+  constexpr int door_count2{room_count * 2};
+
+  static_assert(SOME_LIB_MAJOR_VERSION == 123); // it gets only const
+
+  std::cout << "APP DOING WORK ..." << std::endl;
 }

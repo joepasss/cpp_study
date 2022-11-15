@@ -1,1 +1,1 @@
-cd ./out/build ; ninja ; ./TEST
+cd ./out/build ; ninja ; ./QT_CLI

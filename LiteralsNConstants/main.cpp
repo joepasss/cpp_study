@@ -3,9 +3,10 @@
 void literals();
 void divider();
 void constantExp();
+void constinitEx();
 
 int main() {
-  constantExp();
+  constinitEx();
 
   return 0;
 }
@@ -64,4 +65,32 @@ void constantExp() {
   static_assert(SOME_LIB_MAJOR_VERSION == 123); // it gets only const
 
   std::cout << "APP DOING WORK ..." << std::endl;
+}
+
+void constinitEx() {
+  // that a variable should be initalized at compile time
+  // before main function runs
+  // local variables cannot be declared constinit => set constinit in globaly
+
+  const int val1{33};
+  constexpr int val2{34};
+  int val3{35};
+
+  constinit int age = 88;
+  const constinit int age1{val1}; // const and constinit can be combined
+  constinit int age2{
+      age1}; // initalizing with age would leadto a compiler error
+  constinit int age3{
+      age3}; // val3 is evaluated at run time, can't const initialize age3
+
+  const constinit double weight{33.33};
+  constexpr constinit double scale_factor{
+      3.11}; // can't combine constexpr and constinit
+
+  /*
+    int main() {
+      constinit int age4 {41};  // compiler error: not static or thread local
+    storage return 0;
+    }
+  */
 }

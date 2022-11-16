@@ -1,9 +1,12 @@
+#include "ImplicitDataConv/ImplicitDataConv.h"
 #include <iostream>
 
 using namespace std;
 
+void divider() { cout << "--------------------------------" << endl; }
+
 int main() {
-  cout << "Hello from DATA_CONV!!" << endl;
+  IDC();
 
   return 0;
 }

@@ -1,1 +1,0 @@
-cd ./out/build ; ninja ; ./QT_CLI

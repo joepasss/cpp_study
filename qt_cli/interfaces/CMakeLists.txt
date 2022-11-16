@@ -1,1 +1,0 @@
-add_library(interfaces Interfaces.cpp)

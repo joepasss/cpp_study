@@ -8,5 +8,6 @@ add_executable(${PROJECT_NAME} main.cpp)
 
 # SUB DIR
 add_subdirectory(ImplicitDataConv)
+add_subdirectory(ExplicitDataConv)
 
-target_link_libraries(${PROJECT_NAME} ImplicitDataConv)
+target_link_libraries(${PROJECT_NAME} ImplicitDataConv ExplicitDataConv)

@@ -7,13 +7,11 @@
 
 using namespace std;
 
-int main() {
-  cout << "HELLO from optional libs" << endl;
-
+int main(int argc, char *argv[]) {
 #ifdef USE_ADDER
-  cout << "ADDER: " << adder(3.14, 2.13) << endl;
+  cout << "use adder " << adder(12.2f, 19.2f) << endl;
 #else
-  cout << "NO ADDER!" << endl;
+  cout << "no use adder" << endl;
 #endif
 
   return 0;

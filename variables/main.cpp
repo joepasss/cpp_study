@@ -1,5 +1,10 @@
 #include <iostream>
 
+#include "./boolean.cpp"
+#include "./fractional.cpp"
+#include "./characters.cpp"
+#include "./auto.cpp"
+
 /*    Number system
  *  int number1 = 15;         Decimal
  *  int number2 = 017;        Octal
@@ -86,8 +91,15 @@ void getSizeOfmodifiedInt() {
   getSizeOfInt(0, 0, 0, value4, "long long int");
 }
 
+void divider() {
+  std::cout << "----------------------------------------------------------------------" << std::endl;
+}
+
 int main() {
   std::cout << "C++ Variables!" << std::endl;
-  getSizeOfmodifiedInt();
+  divider();
+
+  autos();
+
   return 0;
 }

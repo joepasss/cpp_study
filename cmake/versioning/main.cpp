@@ -1,7 +1,7 @@
 #include <iostream>
 <<<<<<< HEAD
 
-int main() {
+int main(int argc, char* argv[]) {
   std::cout << "HELLO FROM VERSIONING!" << std::endl;
   
 =======

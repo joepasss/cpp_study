@@ -4,20 +4,21 @@ project(OPTIONAL_LIBS)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
-# Adder use logic
+# adder use logic
 option(USE_ADDER "A simple lib for adding 2 floats." ON)
 
 if(USE_ADDER)
-  add_subdirectory(adder)
+  add_subdirectory(Adder)
 
-  list(APPEND EXTRA_LIB_DIRS "adder")
-  list(APPEND EXTRA_INCLUDES_DIRS "${PROJECT_SOURCE_DIR}/adder")
+  list(APPEND EXTRA_LIB_DIRS "Adder")
+  list(APPEND EXTRA_INCLUDES_DIRS "${PROJECT_SOURCE_DIR}/Adder")
   list(APPEND EXTRA_LINKS "adder")
+
 endif()
 
-configure_file(OPTIONAL_LIBSConfig.in.h OPTIONAL_LIBSConfig.h)
+configure_file(OPTIONAL_LIBSConfig.h.in OPTIONAL_LIBSConfig.h)
 
-target_include_directories(${PROJECT_NAME} PUBLIC ${EXTRA_INCLUDES_DIRS} ${PROJECT_BINARY_DIR})
+target_include_directories(${PROJECT_NAME} PUBLIC ${EXTRA_INCLUDES} ${PROJECT_BINARY_DIR})
 
 target_link_directories(${PROJECT_NAME} PUBLIC ${EXTRA_LIB_DIRS})
 

@@ -1,11 +1,11 @@
-#include <adder/adder.h>
+#include <adder.h>
 #include <iostream>
 
 using namespace std;
 
 int main() {
-  cout << "Hello from install!" << endl;
-  cout << "ADDER : " << adder(3.12, 1.112) << endl;
+  cout << "HELLO from SOFTWARE_INSTALL" << endl;
+  cout << "ADDER: " << adder(3.123f, 3.1f) << endl;
 
   return 0;
 }

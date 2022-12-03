@@ -6,11 +6,10 @@
                 "${workspaceFolder}/**"
             ],
             "defines": [],
-            "macFrameworkPath": [
-                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
-            ],
-            "compilerPath": "/usr/bin/clang++",
-            "cppStandard": "c++20"
+            "compilerPath": "/usr/bin/gcc",
+            "cppStandard": "c++20",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "cStandard": "c17"
         }
     ],
     "version": 4
